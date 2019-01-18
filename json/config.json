@@ -1,0 +1,33 @@
+{
+	
+  "login_URL" :  "http://10.1.1.1:4200/login",
+  
+   "home_page_URL" : {
+   
+	   "home_URL":"http://10.1.1.1:4200/home",
+	   
+	   "profile_URL":"http://10.1.1.1:4200/profile",
+	   
+	   "admin_URL":"http://10.1.1.1:4200/admin" 
+   
+   }, 
+  "locators" :{
+    
+    "loginpage":{
+	  
+		  "buttontext":"Login"
+       },
+       
+       "ValidCredentials":{
+          "username" : "admin",
+          "password" : "admin"   
+       },
+      
+      "InValidCredentials":{
+          "username" : "admin123",
+          "password" : "admin123"   
+       } 
+      
+  }
+
+}
