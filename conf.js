@@ -15,14 +15,9 @@ exports.config = {
     defaultTimeoutInterval: 30000
   },
   
- /* specs: ['./test_specs/Admin_Function.js' , './test_specs/Workflow_Function.js' , './test_specs/NED_Validation_Function.js' , 
-	      './test_specs/OS_Upgrade_Function.js'  , './test_specs/Templates_Function.js' , './test_specs/Services_Function.js' ,
-	       './test_specs/Form_Builder_Function.js' ,'./test_specs/Device_Manager_Function.js'     
-		  ],*/
   
-  specs: [ './test_specs/adminFunctions.js' , 
-						'./test_specs/RPD_Staging.js' , 
-						'./test_specs/Workflow_Function.js' ],
+  
+  specs: [ './test_specs/adminFunctions.js' ],
   
   onPrepare: function () {
 	  
